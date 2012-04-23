@@ -1,0 +1,2692 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+PTPortfolioSubmissionSystem
+</name>
+</assembly>
+<members>
+<member name="F:PTPortfolioSubmissionSystem.Review.tblMain">
+	<summary>
+tblMain control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.Review.btnAdd">
+	<summary>
+btnAdd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.Review.txtYearSearch">
+	<summary>
+txtYearSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.Review.btnYearSearch">
+	<summary>
+btnYearSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.Review.txtLastNameSearch">
+	<summary>
+txtLastNameSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.Review.btnLastNameSearch">
+	<summary>
+btnLastNameSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.Review.grdReviews">
+	<summary>
+grdReviews control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.Review.SqlReviews">
+	<summary>
+SqlReviews control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ReviewAdd.tblMain">
+	<summary>
+tblMain control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ReviewAdd.ddlPortfolios">
+	<summary>
+ddlPortfolios control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ReviewAdd.sqlPortfolios">
+	<summary>
+sqlPortfolios control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ReviewAdd.ddlReviewers">
+	<summary>
+ddlReviewers control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ReviewAdd.sqlReviewers">
+	<summary>
+sqlReviewers control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ReviewAdd.ddlArtifacts">
+	<summary>
+ddlArtifacts control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ReviewAdd.SqlArtifacts">
+	<summary>
+SqlArtifacts control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ReviewAdd.lnkOpen">
+	<summary>
+lnkOpen control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ReviewAdd.FileupReview">
+	<summary>
+FileupReview control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ReviewAdd.rfvReview">
+	<summary>
+rfvReview control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ReviewAdd.btnSubmit">
+	<summary>
+btnSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ReviewAdd.btnCancel">
+	<summary>
+btnCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ReviewAdd.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ReviewAdd.lblUsername">
+	<summary>
+lblUsername control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ReviewAdd.lblPortfolioUserName">
+	<summary>
+lblPortfolioUserName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ReviewAdd.lblReviewStage">
+	<summary>
+lblReviewStage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.UserModify.tblMain">
+	<summary>
+tblMain control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.UserModify.ddlUserType">
+	<summary>
+ddlUserType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.UserModify.lblTypeError">
+	<summary>
+lblTypeError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.UserModify.txtFirstName">
+	<summary>
+txtFirstName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.UserModify.rfvFirstName">
+	<summary>
+rfvFirstName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.UserModify.txtMiddleInitial">
+	<summary>
+txtMiddleInitial control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.UserModify.txtLastName">
+	<summary>
+txtLastName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.UserModify.rfvLastName">
+	<summary>
+rfvLastName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.UserModify.txtUserName">
+	<summary>
+txtUserName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.UserModify.rfvUserName">
+	<summary>
+rfvUserName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.UserModify.txtPassword">
+	<summary>
+txtPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.UserModify.rfvPassword">
+	<summary>
+rfvPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.UserModify.btnModify">
+	<summary>
+btnModify control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.UserModify.btnReset">
+	<summary>
+btnReset control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.UserModify.btnCancel">
+	<summary>
+btnCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.UserModify.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.UserModify.lblUserID">
+	<summary>
+lblUserID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.UserModify.lblUsername">
+	<summary>
+lblUsername control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.UserModify.lblType">
+	<summary>
+lblType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:PTPortfolioSubmissionSystem.My.MyWebExtension.Application">
+	<summary>
+ Returns information about the current application.
+ </summary>
+</member><member name="P:PTPortfolioSubmissionSystem.My.MyWebExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:PTPortfolioSubmissionSystem.My.MyWebExtension.User">
+	<summary>
+ Returns information for the current Web user.
+ </summary>
+</member><member name="P:PTPortfolioSubmissionSystem.My.MyWebExtension.Request">
+	<summary>
+ Returns Request object.
+ </summary>
+</member><member name="P:PTPortfolioSubmissionSystem.My.MyWebExtension.Response">
+	<summary>
+ Returns Response object.
+ </summary>
+</member><member name="P:PTPortfolioSubmissionSystem.My.MyWebExtension.Log">
+	<summary>
+ Returns the Asp log object.
+ </summary>
+</member><member name="P:PTPortfolioSubmissionSystem.My.MyWebExtension.WebServices">
+	<summary>
+ Provides access to WebServices added to this project.
+ </summary>
+</member><member name="T:PTPortfolioSubmissionSystem.My.MyWebExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.UserLogin.lblFailLogin">
+	<summary>
+lblFailLogin control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.UserLogin.LoginUserValidationSummary">
+	<summary>
+LoginUserValidationSummary control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.UserLogin.lblUserName">
+	<summary>
+lblUserName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.UserLogin.txtUserName">
+	<summary>
+txtUserName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.UserLogin.UserNameRequired">
+	<summary>
+UserNameRequired control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.UserLogin.lblPassword">
+	<summary>
+lblPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.UserLogin.txtPassword">
+	<summary>
+txtPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.UserLogin.PasswordRequired">
+	<summary>
+PasswordRequired control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.UserLogin.btnLogin">
+	<summary>
+btnLogin control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.UserLogin.lblHidden">
+	<summary>
+lblHidden control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactTypeDelete.tblMain">
+	<summary>
+tblMain control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactTypeDelete.lblArtifactType">
+	<summary>
+lblArtifactType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactTypeDelete.btnDelete">
+	<summary>
+btnDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactTypeDelete.btnCancel">
+	<summary>
+btnCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactTypeDelete.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactTypeDelete.lblArtifactTypeID">
+	<summary>
+lblArtifactTypeID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.AssignReviewers.tblMain">
+	<summary>
+tblMain control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.AssignReviewers.ddlReviewers">
+	<summary>
+ddlReviewers control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.AssignReviewers.SqlReviewers">
+	<summary>
+SqlReviewers control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.AssignReviewers.btnAssignReviewer">
+	<summary>
+btnAssignReviewer control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.AssignReviewers.grdAssignedReviewers">
+	<summary>
+grdAssignedReviewers control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.AssignReviewers.SqlAssignedReviewers">
+	<summary>
+SqlAssignedReviewers control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.AssignReviewers.btnBack">
+	<summary>
+btnBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.AssignReviewers.lblPID">
+	<summary>
+lblPID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.AssignReviewers.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.AssignReviewers.lblUserID">
+	<summary>
+lblUserID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.AssignReviewers.lblUsername">
+	<summary>
+lblUsername control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.Successful.tblMain">
+	<summary>
+tblMain control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.Successful.btnReturn">
+	<summary>
+btnReturn control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.Site.HeadContent">
+	<summary>
+HeadContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.Site.HeadLoginView">
+	<summary>
+HeadLoginView control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.Site.NavigationMenu">
+	<summary>
+NavigationMenu control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.Site.lblUserType">
+	<summary>
+lblUserType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.Site.lblUsername">
+	<summary>
+lblUsername control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.Site.btnUser">
+	<summary>
+btnUser control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.Site.btnPortfolio">
+	<summary>
+btnPortfolio control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.Site.btnReview">
+	<summary>
+btnReview control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.Site.btnArtifactType">
+	<summary>
+btnArtifactType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.Site.MainContent">
+	<summary>
+MainContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.PortfolioView.tblMain">
+	<summary>
+tblMain control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.PortfolioView.lblFullName">
+	<summary>
+lblFullName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.PortfolioView.lblReviewStage">
+	<summary>
+lblReviewStage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.PortfolioView.lblDueDate">
+	<summary>
+lblDueDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.PortfolioView.lblPostDate">
+	<summary>
+lblPostDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.PortfolioView.ddlArtifacts">
+	<summary>
+ddlArtifacts control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.PortfolioView.SqlArtifacts">
+	<summary>
+SqlArtifacts control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.PortfolioView.lnkOpen">
+	<summary>
+lnkOpen control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.PortfolioView.btnBack">
+	<summary>
+btnBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.PortfolioView.lblPortfolioID">
+	<summary>
+lblPortfolioID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.PortfolioView.lblUsername">
+	<summary>
+lblUsername control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.PortfolioView.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.UserAdd.tblMain">
+	<summary>
+tblMain control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.UserAdd.ddlUserType">
+	<summary>
+ddlUserType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.UserAdd.txtFirstName">
+	<summary>
+txtFirstName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.UserAdd.rfvFirstName">
+	<summary>
+rfvFirstName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.UserAdd.txtMiddleInitial">
+	<summary>
+txtMiddleInitial control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.UserAdd.txtLastName">
+	<summary>
+txtLastName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.UserAdd.rfvLastName">
+	<summary>
+rfvLastName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.UserAdd.txtUserName">
+	<summary>
+txtUserName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.UserAdd.rfvUserName">
+	<summary>
+rfvUserName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.UserAdd.txtPassword">
+	<summary>
+txtPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.UserAdd.rfvPassword">
+	<summary>
+rfvPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.UserAdd.btnSubmit">
+	<summary>
+btnSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.UserAdd.btnCancel">
+	<summary>
+btnCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.UserAdd.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ReviewView.tblMain">
+	<summary>
+tblMain control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ReviewView.lblReviewer">
+	<summary>
+lblReviewer control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ReviewView.lblReviewType">
+	<summary>
+lblReviewType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ReviewView.lblPortfolio">
+	<summary>
+lblPortfolio control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ReviewView.lblPortfolioDate">
+	<summary>
+lblPortfolioDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ReviewView.lblReviewDate">
+	<summary>
+lblReviewDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ReviewView.lnkReview">
+	<summary>
+lnkReview control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ReviewView.btnBack">
+	<summary>
+btnBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ReviewView.lblReviewID">
+	<summary>
+lblReviewID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ReviewView.lblUsername">
+	<summary>
+lblUsername control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ReviewView.lblReview">
+	<summary>
+lblReview control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ReviewView.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.User.tblMain">
+	<summary>
+tblMain control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.User.btnAdd">
+	<summary>
+btnAdd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.User.txtSearchLastName">
+	<summary>
+txtSearchLastName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.User.btnSearchLastName">
+	<summary>
+btnSearchLastName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.User.ddlUserType">
+	<summary>
+ddlUserType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.User.btnSearchUserType">
+	<summary>
+btnSearchUserType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.User.grdUsers">
+	<summary>
+grdUsers control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.User.SqlUsers">
+	<summary>
+SqlUsers control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.UserDelete.tblMain">
+	<summary>
+tblMain control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.UserDelete.lblType">
+	<summary>
+lblType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.UserDelete.lblFirstName">
+	<summary>
+lblFirstName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.UserDelete.lblMiddleInitial">
+	<summary>
+lblMiddleInitial control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.UserDelete.lblLastName">
+	<summary>
+lblLastName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.UserDelete.lblUsername">
+	<summary>
+lblUsername control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.UserDelete.lblPassword">
+	<summary>
+lblPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.UserDelete.btnDelete">
+	<summary>
+btnDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.UserDelete.btnCancel">
+	<summary>
+btnCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.UserDelete.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.UserDelete.lblUserID">
+	<summary>
+lblUserID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactModify.tblMain">
+	<summary>
+tblMain control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactModify.lblArtifact">
+	<summary>
+lblArtifact control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactModify.FileupArtifact">
+	<summary>
+FileupArtifact control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactModify.ddlArtifactType">
+	<summary>
+ddlArtifactType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactModify.SqlArtifactType">
+	<summary>
+SqlArtifactType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactModify.btnModify">
+	<summary>
+btnModify control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactModify.btnReset">
+	<summary>
+btnReset control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactModify.btnCancel">
+	<summary>
+btnCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactModify.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactModify.lblPortfolioID">
+	<summary>
+lblPortfolioID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactModify.lblArtifactID">
+	<summary>
+lblArtifactID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactModify.lblUserName">
+	<summary>
+lblUserName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactModify.lblPostDate">
+	<summary>
+lblPostDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactModify.lblReviewStage">
+	<summary>
+lblReviewStage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.PortfolioAdd.tblMain">
+	<summary>
+tblMain control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.PortfolioAdd.ddlCandidates">
+	<summary>
+ddlCandidates control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.PortfolioAdd.SqlCandidates">
+	<summary>
+SqlCandidates control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.PortfolioAdd.ddlReviewStage">
+	<summary>
+ddlReviewStage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.PortfolioAdd.txtDueDate">
+	<summary>
+txtDueDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.PortfolioAdd.revDueDate">
+	<summary>
+revDueDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.PortfolioAdd.rfvDueDate">
+	<summary>
+rfvDueDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.PortfolioAdd.btnSubmit">
+	<summary>
+btnSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.PortfolioAdd.btnCancel">
+	<summary>
+btnCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.PortfolioAdd.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.PortfolioAdd.lblUsername">
+	<summary>
+lblUsername control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ReviewModify.tblMain">
+	<summary>
+tblMain control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ReviewModify.lblPortfolio">
+	<summary>
+lblPortfolio control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ReviewModify.lblReviewer">
+	<summary>
+lblReviewer control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ReviewModify.ddlArtifacts">
+	<summary>
+ddlArtifacts control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ReviewModify.SqlArtifacts">
+	<summary>
+SqlArtifacts control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ReviewModify.lnkOpen">
+	<summary>
+lnkOpen control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ReviewModify.lblReview">
+	<summary>
+lblReview control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ReviewModify.FileupReview">
+	<summary>
+FileupReview control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ReviewModify.btnModify">
+	<summary>
+btnModify control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ReviewModify.btnReset">
+	<summary>
+btnReset control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ReviewModify.btnCancel">
+	<summary>
+btnCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ReviewModify.lblPortfolioID">
+	<summary>
+lblPortfolioID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ReviewModify.lblUserID">
+	<summary>
+lblUserID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ReviewModify.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ReviewModify.lblReviewID">
+	<summary>
+lblReviewID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ReviewModify.lblUsername">
+	<summary>
+lblUsername control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ReviewModify.lblPortfolioUserName">
+	<summary>
+lblPortfolioUserName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ReviewModify.lblReviewStage">
+	<summary>
+lblReviewStage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.Artifact.tblMain">
+	<summary>
+tblMain control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.Artifact.btnAdd">
+	<summary>
+btnAdd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.Artifact.lblCandidateName">
+	<summary>
+lblCandidateName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.Artifact.lblReviewStage">
+	<summary>
+lblReviewStage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.Artifact.lblPostDate">
+	<summary>
+lblPostDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.Artifact.grdArtifacts">
+	<summary>
+grdArtifacts control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.Artifact.SqlArtifacts">
+	<summary>
+SqlArtifacts control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.Artifact.btnSubmit">
+	<summary>
+btnSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.Artifact.btnBack">
+	<summary>
+btnBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.Artifact.lblPortfolioID">
+	<summary>
+lblPortfolioID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.Artifact.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactAdd.tblMain">
+	<summary>
+tblMain control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactAdd.lblCandidateName">
+	<summary>
+lblCandidateName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactAdd.lblRS">
+	<summary>
+lblRS control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactAdd.lblDateSubmitted">
+	<summary>
+lblDateSubmitted control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactAdd.FileupArtifact">
+	<summary>
+FileupArtifact control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactAdd.rfvReview">
+	<summary>
+rfvReview control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactAdd.ddlArtifactType">
+	<summary>
+ddlArtifactType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactAdd.SqlArtifactType">
+	<summary>
+SqlArtifactType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactAdd.btnSubmit">
+	<summary>
+btnSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactAdd.btnCancel">
+	<summary>
+btnCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactAdd.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactAdd.lblPortfolioID">
+	<summary>
+lblPortfolioID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactAdd.lblUserName">
+	<summary>
+lblUserName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactAdd.lblPostDate">
+	<summary>
+lblPostDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactAdd.lblReviewStage">
+	<summary>
+lblReviewStage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactType.tblMain">
+	<summary>
+tblMain control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactType.btnAdd">
+	<summary>
+btnAdd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactType.grdArtifactTypes">
+	<summary>
+grdArtifactTypes control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactType.SqlArtifactTypes">
+	<summary>
+SqlArtifactTypes control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactType.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.Login1.head">
+	<summary>
+head control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.Login1.Form1">
+	<summary>
+Form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.Login1.NavigationMenu">
+	<summary>
+NavigationMenu control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.Login1.MainContent">
+	<summary>
+MainContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.PortfolioModify.tblMain">
+	<summary>
+tblMain control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.PortfolioModify.ddlCandidates">
+	<summary>
+ddlCandidates control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.PortfolioModify.SqlCandidates">
+	<summary>
+SqlCandidates control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.PortfolioModify.ddlReviewStage">
+	<summary>
+ddlReviewStage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.PortfolioModify.txtDueDate">
+	<summary>
+txtDueDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.PortfolioModify.revDueDate">
+	<summary>
+revDueDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.PortfolioModify.rfvDueDate">
+	<summary>
+rfvDueDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.PortfolioModify.lblPostDate">
+	<summary>
+lblPostDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.PortfolioModify.btnModify">
+	<summary>
+btnModify control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.PortfolioModify.btnReset">
+	<summary>
+btnReset control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.PortfolioModify.btnCancel">
+	<summary>
+btnCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.PortfolioModify.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.PortfolioModify.lblPortfolioID">
+	<summary>
+lblPortfolioID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.PortfolioModify.lblUsername">
+	<summary>
+lblUsername control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.SubmitReview.tblMain">
+	<summary>
+tblMain control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.SubmitReview.ddlPortfolios">
+	<summary>
+ddlPortfolios control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.SubmitReview.sqlPortfolios">
+	<summary>
+sqlPortfolios control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.SubmitReview.lblDisclaimer">
+	<summary>
+lblDisclaimer control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.SubmitReview.trArtifacts">
+	<summary>
+trArtifacts control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.SubmitReview.ddlArtifacts">
+	<summary>
+ddlArtifacts control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.SubmitReview.SqlArtifacts">
+	<summary>
+SqlArtifacts control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.SubmitReview.lnkOpen">
+	<summary>
+lnkOpen control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.SubmitReview.FileupReview">
+	<summary>
+FileupReview control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.SubmitReview.rfvReview">
+	<summary>
+rfvReview control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.SubmitReview.btnSubmit">
+	<summary>
+btnSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.SubmitReview.tblNoPortfolios">
+	<summary>
+tblNoPortfolios control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.SubmitReview.lblRequired">
+	<summary>
+lblRequired control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.SubmitReview.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.SubmitReview.lblUsername">
+	<summary>
+lblUsername control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.SubmitReview.lblUserID">
+	<summary>
+lblUserID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.SubmitReview.lblPortfolioUserName">
+	<summary>
+lblPortfolioUserName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.SubmitReview.lblReviewStage">
+	<summary>
+lblReviewStage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.SubmitReview.lblPortfolioID">
+	<summary>
+lblPortfolioID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactTypeAdd.tblMain">
+	<summary>
+tblMain control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactTypeAdd.txtArtifactType">
+	<summary>
+txtArtifactType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactTypeAdd.btnAdd">
+	<summary>
+btnAdd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactTypeAdd.btnCancel">
+	<summary>
+btnCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactTypeAdd.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.AssignmentDelete.tblMain">
+	<summary>
+tblMain control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.AssignmentDelete.lblCannotDelete">
+	<summary>
+lblCannotDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.AssignmentDelete.lblPortfolio">
+	<summary>
+lblPortfolio control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.AssignmentDelete.lblReviewer">
+	<summary>
+lblReviewer control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.AssignmentDelete.btnDelete">
+	<summary>
+btnDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.AssignmentDelete.btnCancel">
+	<summary>
+btnCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.AssignmentDelete.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.AssignmentDelete.lblUserID">
+	<summary>
+lblUserID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.AssignmentDelete.lblPID">
+	<summary>
+lblPID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.SubmitPortfolio.tblMain">
+	<summary>
+tblMain control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.SubmitPortfolio.grdPortfolios">
+	<summary>
+grdPortfolios control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.SubmitPortfolio.SqlPortfolios">
+	<summary>
+SqlPortfolios control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.SubmitPortfolio.lblUserID">
+	<summary>
+lblUserID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.SubmitPortfolio.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.PortfolioReviewsReport.tblMain">
+	<summary>
+tblMain control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.PortfolioReviewsReport.lblCandidate">
+	<summary>
+lblCandidate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.PortfolioReviewsReport.lblReviewStage">
+	<summary>
+lblReviewStage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.PortfolioReviewsReport.lblPostDate">
+	<summary>
+lblPostDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.PortfolioReviewsReport.grdReviews">
+	<summary>
+grdReviews control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.PortfolioReviewsReport.SqlReviews">
+	<summary>
+SqlReviews control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.PortfolioReviewsReport.btnBack">
+	<summary>
+btnBack control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.PortfolioReviewsReport.lblPortfolioID">
+	<summary>
+lblPortfolioID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.PortfolioReviewsReport.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactDelete.tblMain">
+	<summary>
+tblMain control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactDelete.lblArtifact">
+	<summary>
+lblArtifact control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactDelete.lblArtifactType">
+	<summary>
+lblArtifactType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactDelete.btnDelete">
+	<summary>
+btnDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactDelete.btnCancel">
+	<summary>
+btnCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactDelete.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactDelete.lblPortfolioID">
+	<summary>
+lblPortfolioID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactDelete.lblArtifactID">
+	<summary>
+lblArtifactID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactDelete.lblUserName">
+	<summary>
+lblUserName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactDelete.lblPostDate">
+	<summary>
+lblPostDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactDelete.lblReviewStage">
+	<summary>
+lblReviewStage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactTypeModify.tblMain">
+	<summary>
+tblMain control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactTypeModify.Label1">
+	<summary>
+Label1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactTypeModify.Label2">
+	<summary>
+Label2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactTypeModify.txtArtifactType">
+	<summary>
+txtArtifactType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactTypeModify.btnModify">
+	<summary>
+btnModify control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactTypeModify.btnReset">
+	<summary>
+btnReset control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactTypeModify.btnCancel">
+	<summary>
+btnCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactTypeModify.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ArtifactTypeModify.lblArtifactTypeID">
+	<summary>
+lblArtifactTypeID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ReviewDelete.tblMain">
+	<summary>
+tblMain control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ReviewDelete.lblPortfolio">
+	<summary>
+lblPortfolio control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ReviewDelete.lblReviewer">
+	<summary>
+lblReviewer control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ReviewDelete.lblReview">
+	<summary>
+lblReview control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ReviewDelete.btnDelete">
+	<summary>
+btnDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ReviewDelete.btnCancel">
+	<summary>
+btnCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ReviewDelete.lblPortfolioID">
+	<summary>
+lblPortfolioID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ReviewDelete.lblUserID">
+	<summary>
+lblUserID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ReviewDelete.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ReviewDelete.lblReviewID">
+	<summary>
+lblReviewID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ReviewDelete.lblUsername">
+	<summary>
+lblUsername control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ReviewDelete.lblPortfolioUserName">
+	<summary>
+lblPortfolioUserName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.ReviewDelete.lblReviewStage">
+	<summary>
+lblReviewStage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.Portfolio.tblMain">
+	<summary>
+tblMain control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.Portfolio.btnAdd">
+	<summary>
+btnAdd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.Portfolio.Label1">
+	<summary>
+Label1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.Portfolio.txtYearSearch">
+	<summary>
+txtYearSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.Portfolio.btnYearSearch">
+	<summary>
+btnYearSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.Portfolio.Label2">
+	<summary>
+Label2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.Portfolio.txtLastNameSearch">
+	<summary>
+txtLastNameSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.Portfolio.btnLastNameSearch">
+	<summary>
+btnLastNameSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.Portfolio.grdPortfolios">
+	<summary>
+grdPortfolios control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.Portfolio.SqlPortfolios">
+	<summary>
+SqlPortfolios control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.PortfolioDelete.tblMain">
+	<summary>
+tblMain control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.PortfolioDelete.lblCandidate">
+	<summary>
+lblCandidate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.PortfolioDelete.lblReviewStage">
+	<summary>
+lblReviewStage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.PortfolioDelete.lblDueDate">
+	<summary>
+lblDueDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.PortfolioDelete.lblPostDate">
+	<summary>
+lblPostDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.PortfolioDelete.btnDelete">
+	<summary>
+btnDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.PortfolioDelete.btnCancel">
+	<summary>
+btnCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.PortfolioDelete.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.PortfolioDelete.lblPortfolioID">
+	<summary>
+lblPortfolioID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PTPortfolioSubmissionSystem.PortfolioDelete.lblUsername">
+	<summary>
+lblUsername control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>

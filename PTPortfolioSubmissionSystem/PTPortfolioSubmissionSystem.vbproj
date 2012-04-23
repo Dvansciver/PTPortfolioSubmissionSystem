@@ -1,0 +1,440 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{8B6695D3-8ED0-4A71-941D-B801392A349C}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>PTPortfolioSubmissionSystem</RootNamespace>
+    <AssemblyName>PTPortfolioSubmissionSystem</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>PTPortfolioSubmissionSystem.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>PTPortfolioSubmissionSystem.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Artifact.aspx" />
+    <Content Include="ArtifactAdd.aspx" />
+    <Content Include="ArtifactDelete.aspx" />
+    <Content Include="ArtifactModify.aspx" />
+    <Content Include="ArtifactType.aspx" />
+    <Content Include="ArtifactTypeAdd.aspx" />
+    <Content Include="ArtifactTypeDelete.aspx" />
+    <Content Include="ArtifactTypeModify.aspx" />
+    <Content Include="AssignmentDelete.aspx" />
+    <Content Include="AssignReviewers.aspx" />
+    <Content Include="Candidate\SubmitPortfolio.aspx" />
+    <Content Include="Portfolio.aspx" />
+    <Content Include="PortfolioAdd.aspx" />
+    <Content Include="PortfolioDelete.aspx" />
+    <Content Include="PortfolioModify.aspx" />
+    <Content Include="PortfolioReviewsReport.aspx" />
+    <Content Include="PortfolioView.aspx" />
+    <Content Include="Review.aspx" />
+    <Content Include="ReviewAdd.aspx" />
+    <Content Include="ReviewDelete.aspx" />
+    <Content Include="Reviewer\SubmitReview.aspx" />
+    <Content Include="Reviewer\Successful.aspx" />
+    <Content Include="ReviewModify.aspx" />
+    <Content Include="ReviewView.aspx" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="User.aspx" />
+    <Content Include="UserAdd.aspx" />
+    <Content Include="UserDelete.aspx" />
+    <Content Include="UserLogin.aspx" />
+    <Content Include="UserModify.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Artifact.aspx.designer.vb">
+      <DependentUpon>Artifact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Artifact.aspx.vb">
+      <DependentUpon>Artifact.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ArtifactAdd.aspx.designer.vb">
+      <DependentUpon>ArtifactAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ArtifactAdd.aspx.vb">
+      <DependentUpon>ArtifactAdd.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ArtifactDelete.aspx.designer.vb">
+      <DependentUpon>ArtifactDelete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ArtifactDelete.aspx.vb">
+      <DependentUpon>ArtifactDelete.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ArtifactModify.aspx.designer.vb">
+      <DependentUpon>ArtifactModify.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ArtifactModify.aspx.vb">
+      <DependentUpon>ArtifactModify.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ArtifactType.aspx.designer.vb">
+      <DependentUpon>ArtifactType.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ArtifactType.aspx.vb">
+      <DependentUpon>ArtifactType.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ArtifactTypeAdd.aspx.designer.vb">
+      <DependentUpon>ArtifactTypeAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ArtifactTypeAdd.aspx.vb">
+      <DependentUpon>ArtifactTypeAdd.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ArtifactTypeDelete.aspx.designer.vb">
+      <DependentUpon>ArtifactTypeDelete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ArtifactTypeDelete.aspx.vb">
+      <DependentUpon>ArtifactTypeDelete.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ArtifactTypeModify.aspx.designer.vb">
+      <DependentUpon>ArtifactTypeModify.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ArtifactTypeModify.aspx.vb">
+      <DependentUpon>ArtifactTypeModify.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="AssignmentDelete.aspx.designer.vb">
+      <DependentUpon>AssignmentDelete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AssignmentDelete.aspx.vb">
+      <DependentUpon>AssignmentDelete.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="AssignReviewers.aspx.designer.vb">
+      <DependentUpon>AssignReviewers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AssignReviewers.aspx.vb">
+      <DependentUpon>AssignReviewers.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="BasePageClass.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Candidate\SubmitPortfolio.aspx.designer.vb">
+      <DependentUpon>SubmitPortfolio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Candidate\SubmitPortfolio.aspx.vb">
+      <DependentUpon>SubmitPortfolio.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.vb">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.vb">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Login.Master.designer.vb">
+      <DependentUpon>Login.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Login.Master.vb">
+      <DependentUpon>Login.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Portfolio.aspx.designer.vb">
+      <DependentUpon>Portfolio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Portfolio.aspx.vb">
+      <DependentUpon>Portfolio.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="PortfolioAdd.aspx.designer.vb">
+      <DependentUpon>PortfolioAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PortfolioAdd.aspx.vb">
+      <DependentUpon>PortfolioAdd.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="PortfolioDelete.aspx.designer.vb">
+      <DependentUpon>PortfolioDelete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PortfolioDelete.aspx.vb">
+      <DependentUpon>PortfolioDelete.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="PortfolioModify.aspx.designer.vb">
+      <DependentUpon>PortfolioModify.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PortfolioModify.aspx.vb">
+      <DependentUpon>PortfolioModify.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="PortfolioReviewsReport.aspx.designer.vb">
+      <DependentUpon>PortfolioReviewsReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PortfolioReviewsReport.aspx.vb">
+      <DependentUpon>PortfolioReviewsReport.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="PortfolioView.aspx.designer.vb">
+      <DependentUpon>PortfolioView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PortfolioView.aspx.vb">
+      <DependentUpon>PortfolioView.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Review.aspx.designer.vb">
+      <DependentUpon>Review.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Review.aspx.vb">
+      <DependentUpon>Review.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ReviewAdd.aspx.designer.vb">
+      <DependentUpon>ReviewAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReviewAdd.aspx.vb">
+      <DependentUpon>ReviewAdd.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ReviewDelete.aspx.designer.vb">
+      <DependentUpon>ReviewDelete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReviewDelete.aspx.vb">
+      <DependentUpon>ReviewDelete.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reviewer\SubmitReview.aspx.designer.vb">
+      <DependentUpon>SubmitReview.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reviewer\SubmitReview.aspx.vb">
+      <DependentUpon>SubmitReview.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Reviewer\Successful.aspx.designer.vb">
+      <DependentUpon>Successful.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reviewer\Successful.aspx.vb">
+      <DependentUpon>Successful.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ReviewModify.aspx.designer.vb">
+      <DependentUpon>ReviewModify.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReviewModify.aspx.vb">
+      <DependentUpon>ReviewModify.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ReviewView.aspx.designer.vb">
+      <DependentUpon>ReviewView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReviewView.aspx.vb">
+      <DependentUpon>ReviewView.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.vb">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.vb">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User.aspx.designer.vb">
+      <DependentUpon>User.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User.aspx.vb">
+      <DependentUpon>User.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="UserAdd.aspx.designer.vb">
+      <DependentUpon>UserAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserAdd.aspx.vb">
+      <DependentUpon>UserAdd.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="UserDelete.aspx.designer.vb">
+      <DependentUpon>UserDelete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserDelete.aspx.vb">
+      <DependentUpon>UserDelete.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="UserLogin.aspx.designer.vb">
+      <DependentUpon>UserLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserLogin.aspx.vb">
+      <DependentUpon>UserLogin.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="UserModify.aspx.designer.vb">
+      <DependentUpon>UserModify.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserModify.aspx.vb">
+      <DependentUpon>UserModify.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Login.Master" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Portfolios\" />
+    <Folder Include="Reviews\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>53430</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
